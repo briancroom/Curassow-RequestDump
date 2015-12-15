@@ -1,0 +1,5 @@
+---
+applications:
+- name: Curassow-RequestDump
+  memory: 128M
+  buildpack: https://github.com/briancroom/swift-buildpack#update-snapshot
