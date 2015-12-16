@@ -21,7 +21,5 @@ func responseTextForRequest(request: RequestType) -> String {
         lines.append("There was no request body")
     }
 
-    let text = lines.joinWithSeparator("\n")
-    print(text)
-    return text
+    return lines.joinWithSeparator("\n")
 }
